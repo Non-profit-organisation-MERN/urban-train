@@ -5,7 +5,7 @@ export default function Main(props) {
         <div>
             <h1 className="main-h1">Fun facts about React</h1>
             <div>
-                <RegisterPage /> {/* Include the RegisterPage component here */}
+                <RegisterPage />
             </div>
         </div>
     );
