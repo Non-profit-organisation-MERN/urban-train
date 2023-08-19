@@ -1,12 +1,12 @@
-FROM node:12
+FROM node:alpine
 
 WORKDIR /app
 
-COPY package*.json ./
+COPY ./package.json /app
 
 RUN npm install
 
-COPY src/ ./src/
+COPY . /app
 
 ENV PORT = 3000
 
