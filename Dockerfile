@@ -6,8 +6,7 @@ COPY package*.json ./
 
 RUN npm install
 
-COPY server.js /app
-
+COPY src/ ./src/
 
 ENV PORT = 3000
 
